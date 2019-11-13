@@ -570,7 +570,7 @@ input[type='checkbox'] {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #2f2c3d;
+	background: #2474F6;
 }
 
 .spinner {
@@ -1538,7 +1538,7 @@ a:hover.back-to-top {
 	}
 
 	h1 {
-		font: 800 3.25rem/3.75rem "Roboto Slab", sans-serif;
+		font: 800 3rem/3.75rem "Roboto Slab", sans-serif;
 	}
 	/* end of general styles */
 
