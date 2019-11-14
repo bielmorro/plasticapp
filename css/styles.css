@@ -2109,3 +2109,18 @@ a:hover.back-to-top {
   .flex-item {
 	margin: auto;
   }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+  
+	.text-container{
+
+		text-align: center;
+	}
+	
+	.responsive-center{
+		width: 60%;
+	}
+
+
+
+  }
