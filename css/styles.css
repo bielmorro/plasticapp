@@ -598,23 +598,24 @@ input[type='checkbox'] {
 /*     03. Navigations     */
 /**************************/
 .navbar-custom {
-	background-color: #4633af;
+	background-color: #fafafa;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-	font: 700 0.75rem/2rem "Montserrat", sans-serif;
+	font: 700 0.75rem/2rem "Open Sans", sans-serif;
+	letter-spacing: 1px;
 	transition: all 0.2s;
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 113px;
-	height: 34px;
+    
+	height: 60px;
 	margin-bottom: 1px;
 	-webkit-backface-visibility: hidden;
 }
 
 .navbar-custom .navbar-brand.logo-text {
-	font: 700 2.375rem/1.5rem "Montserrat", sans-serif;
-	color: #fff;
-	letter-spacing: -0.5px;
+	font: 700 2.375rem/1.5rem "Open Sans", sans-serif;
+	color: #2C2C2C;
+	letter-spacing: 1px;
 	text-decoration: none;
 }
 
@@ -624,7 +625,7 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0 0.75rem 0 0.75rem;
-	color: #fff;
+	color: #2C2C2C;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
@@ -659,7 +660,7 @@ input[type='checkbox'] {
 	margin-top: 0;
 	border: none;
 	border-radius: 0.25rem;
-	background-color: #4633af;
+	background-color: #2474F7;
 }
 
 .navbar-custom .dropdown-item {
@@ -668,15 +669,15 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover {
-	background-color: #4633af;
+	background-color: rgb(38, 114, 236);
 }
 
 .navbar-custom .dropdown-item .item-text {
-	font: 700 0.75rem/1.5rem "Montserrat", sans-serif;
+	font: 700 0.75rem/1.5rem "Open Sans", sans-serif;
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #00c9db;
+	color: #FDD892;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
@@ -1544,7 +1545,7 @@ a:hover.back-to-top {
 	.navbar-custom.top-nav-collapse {
         padding: 0.5rem 1.5rem 0.5rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-		background-color: #4633af;
+		background-color: #fafafa;
 	}
 
 	.navbar-custom.top-nav-collapse .navbar-brand.logo-text {
@@ -1552,7 +1553,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link {
-		color: #fff;
+		color: #2C2C2C;
 	}
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
@@ -1561,7 +1562,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .dropdown-menu {
-		box-shadow: 0 0.25rem 0.375rem 0 rgba(0, 0, 0, 0.03);
+		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	}
 
 	.navbar-custom .dropdown-item {
