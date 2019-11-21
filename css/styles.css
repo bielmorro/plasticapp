@@ -1519,13 +1519,13 @@ a:hover.back-to-top {
 
 	/* Navigation */
 	.navbar-custom {
-		padding: 2.125rem 1.5rem 2.125rem 2rem;
+		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
 		box-shadow: none;
-        background: transparent;
+        background: #fafafa;
 	}
 	
 	.navbar-custom .navbar-brand.logo-text {
-		color: #fff;
+		color: #2c2c2c;
 	}
 
 	.navbar-custom .navbar-nav {
@@ -1534,7 +1534,7 @@ a:hover.back-to-top {
 
 	.navbar-custom .nav-item .nav-link {
 		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
-		color: #fff;
+		color: #2c2c2c;
 	}
 	
 	.navbar-custom .nav-item .nav-link:hover,
@@ -1543,13 +1543,13 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom.top-nav-collapse {
-        padding: 0.5rem 1.5rem 0.5rem 2rem;
+        padding: 0.25rem 0.75rem 0.25rem 0.75rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 		background-color: #fafafa;
 	}
 
 	.navbar-custom.top-nav-collapse .navbar-brand.logo-text {
-		color: #fff;
+		color: #2c2c2c;
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link {
@@ -1913,7 +1913,7 @@ a:hover.back-to-top {
 	
 	/* Navigation */
 	.navbar-custom {
-		padding: 2.125rem 5rem 2.125rem 5rem;
+		padding: 0.25rem 5rem 0.25rem 5rem;
 	}
 
 	.navbar-custom.top-nav-collapse {
@@ -1921,7 +1921,6 @@ a:hover.back-to-top {
 	}
 	/* end of navigation */
 
-	
 	/* General Styles */
 	.p-heading {
 		width: 44%;
