@@ -1360,6 +1360,7 @@ input[type='checkbox'] {
 	margin-left: 0.625rem;
 }
 
+
 .footer .fa-stack {
 	margin-bottom: 0.75rem;
 	margin-right: 0.5rem;
@@ -2070,6 +2071,11 @@ a:hover.back-to-top {
 /* end of min-width width 1200px */
 
 
+.news {
+
+	background: cornflowerblue;
+}
+
 
 .flex-container {
 	display: flex;
@@ -2080,7 +2086,8 @@ a:hover.back-to-top {
   }
   
   .flex-item {
-	margin: auto;
+	margin: 0px;
+	
   }
 
   @media (min-width: 320px) and (max-width: 480px) {
@@ -2089,10 +2096,21 @@ a:hover.back-to-top {
 
 		text-align: center;
 	}
+
+	.flex-container {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		height: auto;
+		
+	  }
 	
 	.responsive-center{
 		width: 60%;
 	}
+
+
+
 
 
 
